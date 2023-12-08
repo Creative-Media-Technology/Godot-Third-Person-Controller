@@ -1,2 +1,5 @@
-CSGBox3D
 Node3D
+CollisionShape3D
+CharacterBody3D
+CharacterBody2D
+CSGBox3D
