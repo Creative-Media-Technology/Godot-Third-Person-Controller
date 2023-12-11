@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702302580
+::res://::1702308202
 icon.svg::CompressedTexture2D::2444431706097035237::1701863130::1701863136::1::::<><>::
 README.md::TextFile::-1::1701863180::0::1::::<><>::
-world.tscn::PackedScene::5654429361556552598::1702044629::0::1::::<><>::uid://c8arnlq67qi7::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Dark/texture_05.png<>uid://b58xv1joypxo5::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Orange/texture_09.png<>uid://cm5m7nr7dugjd::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Purple/texture_09.png<>uid://djg8y25y06h5n::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Green/texture_09.png
+world.tscn::PackedScene::5654429361556552598::1702044629::0::1::::<><>::uid://c8arnlq67qi7
 ::res://Assets/::1701863914
 ::res://Assets/kenney_prototype-textures/::1701863911
 License.txt::TextFile::-1::1701863903::0::1::::<><>::
@@ -197,8 +197,8 @@ texture_10.png::CompressedTexture2D::2678048462033916780::1701863903::1701863914
 texture_11.png::CompressedTexture2D::7347268326846751397::1701863903::1701863914::1::::<><>::
 texture_12.png::CompressedTexture2D::3318626513048328889::1701863903::1701863914::1::::<><>::
 texture_13.png::CompressedTexture2D::952935486174002101::1701863903::1701863914::1::::<><>::
-::res://Scenes/::1702047791
-main.tscn::PackedScene::8496561379902784225::1702047791::0::1::::<><>::uid://c8arnlq67qi7::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Dark/texture_05.png<>uid://b58xv1joypxo5::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Orange/texture_09.png<>uid://cm5m7nr7dugjd::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Purple/texture_09.png<>uid://djg8y25y06h5n::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Green/texture_09.png<>uid://ba0jcq1gbbxx7::::res://Scenes/player.tscn
-player.tscn::PackedScene::2438581032879836130::1702047791::0::1::::<><>::res://Scripts/player.gd<>uid://bdq6ajic6fjrf::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/models/mixamo_base.glb
-::res://Scripts/::1702047418
-player.gd::GDScript::-1::1702047418::0::1::::<>CharacterBody3D<>::
+::res://Scenes/::1702307717
+main.tscn::PackedScene::8496561379902784225::1702307717::0::1::::<><>::uid://c8arnlq67qi7::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Dark/texture_05.png<>uid://b58xv1joypxo5::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Orange/texture_09.png<>uid://cm5m7nr7dugjd::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Purple/texture_09.png<>uid://djg8y25y06h5n::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/textures/grids/Green/texture_09.png<>uid://ba0jcq1gbbxx7::::res://Scenes/player.tscn
+player.tscn::PackedScene::2438581032879836130::1702307717::0::1::::<><>::res://Scripts/player.gd<>uid://bdq6ajic6fjrf::::res://Assets/third_person_controller_assets-main/third_person_controller_assets-main/models/mixamo_base.glb
+::res://Scripts/::1702307204
+player.gd::GDScript::-1::1702307204::0::1::::<>CharacterBody3D<>::

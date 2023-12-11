@@ -1,6 +1,7 @@
 extends CharacterBody3D
 
-@onready var camera_mount  = $camera_mount
+@onready var camera_mount: Node3D = $camera_mount
+
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
@@ -12,18 +13,25 @@ const JUMP_VELOCITY = 4.5
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _ready():
+	
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED  #puts mouse outside the screen
 	
 func input(event):
 	if event is InputEventMouseMotion:
 		print("Mouse Motion: ", event.relative)
-		rotate_y(deg_to_rad(-event.relative.x * sens_horizontal))	
-		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))
+		print("Mouse Sensitivity: ", sens_horizontal, sens_vertical)
+		camera_mount.rotate_y(deg_to_rad(-event.relative.x * sens_horizontal))	
+		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))     
 		
 	
 	
 
 func _physics_process(delta: float) -> void:
+	
+	
+	if Input.mouse_mode != Input.MOUSE_MODE_CAPTURED:
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
