@@ -74,3 +74,5 @@ size = Vector3(2, 2, 2)
 
 [node name="player" parent="." instance=ExtResource("5_wkjce")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.205544, 0)
+sens_horizontal = 0.3
+sens_vertical = 0.3
