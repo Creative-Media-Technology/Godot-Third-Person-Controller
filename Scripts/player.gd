@@ -1,7 +1,5 @@
 extends CharacterBody3D
-
-@onready var camera_mount: Node3D = $camera_mount
-
+@onready var camera_mount = $camera_mount
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
@@ -16,6 +14,7 @@ func _ready():
 	
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED  #puts mouse outside the screen
 	
+
 func input(event):
 	if event is InputEventMouseMotion:
 		print("Mouse Motion: ", event.relative)
@@ -28,9 +27,6 @@ func input(event):
 
 func _physics_process(delta: float) -> void:
 	
-	
-	if Input.mouse_mode != Input.MOUSE_MODE_CAPTURED:
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	
 	# Add the gravity.
 	if not is_on_floor():

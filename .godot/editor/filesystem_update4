@@ -1,3 +1,4 @@
 res://Scenes/main.tscn
-res://Scripts/player.gd
 res://Scenes/player.tscn
+res://Scripts/player.gd
+res://Scenes/test.gd
