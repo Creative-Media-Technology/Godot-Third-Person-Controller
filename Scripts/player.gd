@@ -15,11 +15,11 @@ func _ready():
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED  #puts mouse outside the screen
 	
 
-func input(event):
+func _input(event):
 	if event is InputEventMouseMotion:
 		print("Mouse Motion: ", event.relative)
 		print("Mouse Sensitivity: ", sens_horizontal, sens_vertical)
-		camera_mount.rotate_y(deg_to_rad(-event.relative.x * sens_horizontal))	
+		rotate_y(deg_to_rad(-event.relative.x * sens_horizontal))	
 		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))     
 		
 	
