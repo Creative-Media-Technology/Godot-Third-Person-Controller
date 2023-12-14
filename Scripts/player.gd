@@ -13,6 +13,8 @@ var running_speed = 5.0
 var running = false
 var is_locked = false
 
+var is_jumping = false
+
 @export var sens_horizontal = 0.5
 @export var sens_vertical = 0.5
 
