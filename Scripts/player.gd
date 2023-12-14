@@ -67,11 +67,12 @@ func _physics_process(delta: float) -> void:
 			if running:
 				if animation_player.current_animation != "running":
 					animation_player.play("running")
+					
 			else:
 			
 					if animation_player.current_animation != "walking":
 						animation_player.play("walking")
-					visuals.look_at(position + direction) #rotates the visuals node (the parent object for the mixamo_base)	
+			visuals.look_at(position + direction) #rotates the visuals node (the parent object for the mixamo_base)	
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
 	else:
